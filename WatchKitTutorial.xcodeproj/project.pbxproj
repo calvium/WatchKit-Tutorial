@@ -22,6 +22,9 @@
 		D3C7122C1A77E42500022F83 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C7122A1A77E42500022F83 /* Interface.storyboard */; };
 		D3C7122E1A77E42500022F83 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C7122D1A77E42500022F83 /* Images.xcassets */; };
 		D3C712311A77E42500022F83 /* WatchKitTutorial WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D3C712111A77E42500022F83 /* WatchKitTutorial WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D3DAF71B1A7FA1FC0025FFE8 /* DEV_ColourTableRow.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DAF71A1A7FA1FC0025FFE8 /* DEV_ColourTableRow.m */; };
+		D3DAF71E1A7FA4450025FFE8 /* DEV_HeirarchicalInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DAF71D1A7FA4450025FFE8 /* DEV_HeirarchicalInterfaceController.m */; };
+		D3DAF7211A7FAC3D0025FFE8 /* DEV_ColourInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DAF7201A7FAC3D0025FFE8 /* DEV_ColourInterfaceController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +93,12 @@
 		D3C712291A77E42500022F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3C7122B1A77E42500022F83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		D3C7122D1A77E42500022F83 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3DAF7191A7FA1FC0025FFE8 /* DEV_ColourTableRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEV_ColourTableRow.h; path = "../WatchKitTutorial WatchKit App/DEV_ColourTableRow.h"; sourceTree = "<group>"; };
+		D3DAF71A1A7FA1FC0025FFE8 /* DEV_ColourTableRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEV_ColourTableRow.m; path = "../WatchKitTutorial WatchKit App/DEV_ColourTableRow.m"; sourceTree = "<group>"; };
+		D3DAF71C1A7FA4450025FFE8 /* DEV_HeirarchicalInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEV_HeirarchicalInterfaceController.h; sourceTree = "<group>"; };
+		D3DAF71D1A7FA4450025FFE8 /* DEV_HeirarchicalInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEV_HeirarchicalInterfaceController.m; sourceTree = "<group>"; };
+		D3DAF71F1A7FAC3D0025FFE8 /* DEV_ColourInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DEV_ColourInterfaceController.h; path = "../WatchKitTutorial WatchKit App/DEV_ColourInterfaceController.h"; sourceTree = "<group>"; };
+		D3DAF7201A7FAC3D0025FFE8 /* DEV_ColourInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DEV_ColourInterfaceController.m; path = "../WatchKitTutorial WatchKit App/DEV_ColourInterfaceController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +192,12 @@
 		D3C712121A77E42500022F83 /* WatchKitTutorial WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				D3DAF71F1A7FAC3D0025FFE8 /* DEV_ColourInterfaceController.h */,
+				D3DAF7201A7FAC3D0025FFE8 /* DEV_ColourInterfaceController.m */,
+				D3DAF7191A7FA1FC0025FFE8 /* DEV_ColourTableRow.h */,
+				D3DAF71A1A7FA1FC0025FFE8 /* DEV_ColourTableRow.m */,
+				D3DAF71C1A7FA4450025FFE8 /* DEV_HeirarchicalInterfaceController.h */,
+				D3DAF71D1A7FA4450025FFE8 /* DEV_HeirarchicalInterfaceController.m */,
 				D3C712161A77E42500022F83 /* InterfaceController.h */,
 				D3C712171A77E42500022F83 /* InterfaceController.m */,
 				D3C712191A77E42500022F83 /* NotificationController.h */,
@@ -402,6 +417,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3C7121B1A77E42500022F83 /* NotificationController.m in Sources */,
+				D3DAF7211A7FAC3D0025FFE8 /* DEV_ColourInterfaceController.m in Sources */,
+				D3DAF71E1A7FA4450025FFE8 /* DEV_HeirarchicalInterfaceController.m in Sources */,
+				D3DAF71B1A7FA1FC0025FFE8 /* DEV_ColourTableRow.m in Sources */,
 				D3C712181A77E42500022F83 /* InterfaceController.m in Sources */,
 				D3C7121E1A77E42500022F83 /* GlanceController.m in Sources */,
 			);
@@ -660,6 +678,7 @@
 				D3C712091A77E3E600022F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3C7120A1A77E3E600022F83 /* Build configuration list for PBXNativeTarget "WatchKitTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -668,6 +687,7 @@
 				D3C7120C1A77E3E600022F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3C712321A77E42500022F83 /* Build configuration list for PBXNativeTarget "WatchKitTutorial WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -676,6 +696,7 @@
 				D3C712341A77E42500022F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3C712351A77E42500022F83 /* Build configuration list for PBXNativeTarget "WatchKitTutorial WatchKit Extension" */ = {
 			isa = XCConfigurationList;
@@ -684,6 +705,7 @@
 				D3C712371A77E42500022F83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

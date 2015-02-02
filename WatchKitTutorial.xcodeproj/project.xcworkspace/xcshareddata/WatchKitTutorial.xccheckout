@@ -10,31 +10,31 @@
 	<string>WatchKitTutorial</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>F4B5611DC76478601C2608CFA83925124A7ED900</key>
-		<string>https://bitbucket.org/calviumltd/iwatch-project.git</string>
+		<key>719DFA7B05EA8A4AD927EBDED4AA8782F492CC0E</key>
+		<string>https://github.com/calvium/WatchKit-Tutorial.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>WatchKitTutorial/WatchKitTutorial.xcodeproj</string>
+	<string>WatchKitTutorial.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>F4B5611DC76478601C2608CFA83925124A7ED900</key>
-		<string>../../..</string>
+		<key>719DFA7B05EA8A4AD927EBDED4AA8782F492CC0E</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://bitbucket.org/calviumltd/iwatch-project.git</string>
+	<string>https://github.com/calvium/WatchKit-Tutorial.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>F4B5611DC76478601C2608CFA83925124A7ED900</string>
+	<string>719DFA7B05EA8A4AD927EBDED4AA8782F492CC0E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>F4B5611DC76478601C2608CFA83925124A7ED900</string>
+			<string>719DFA7B05EA8A4AD927EBDED4AA8782F492CC0E</string>
 			<key>IDESourceControlWCCName</key>
-			<string>iwatch-project</string>
+			<string>WatchKit-Tutorial</string>
 		</dict>
 	</array>
 </dict>

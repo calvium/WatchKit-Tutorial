@@ -5,18 +5,56 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--Heirarchical Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                <controller id="AgC-eL-Hgc" customClass="DEV_HeirarchicalInterfaceController">
                     <items>
-                        <timer height="19.5" alignment="left" id="k1m-pi-LDK">
-                            <calendarUnit key="units" year="YES" month="YES" day="YES" hour="YES" minute="YES" second="YES" weekOfMonth="YES"/>
-                        </timer>
+                        <table alignment="left" id="Ora-W3-JwM">
+                            <items>
+                                <tableRow identifier="HeadingRow" id="3mr-QX-Jqz">
+                                    <group key="rootItem" width="1" alignment="left" id="ejl-VL-5PH">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Colours" textAlignment="left" id="5AM-E7-eBR">
+                                                <fontDescription key="font" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
+                                            </label>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                                <tableRow identifier="ColourRow" id="0cm-hF-Kpd" customClass="DEV_ColourTableRow">
+                                    <group key="rootItem" width="1" alignment="left" id="wMQ-IO-6sM">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Label" textAlignment="left" id="Gxd-nS-JJb"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="lblTitle" destination="Gxd-nS-JJb" id="d9H-5n-vg2"/>
+                                        <segue destination="WuN-55-PXk" kind="push" identifier="heirarchicalToColour" id="eg9-bX-8Q4"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
                     </items>
+                    <connections>
+                        <outlet property="table" destination="Ora-W3-JwM" id="zpF-x1-p4y"/>
+                    </connections>
                 </controller>
             </objects>
             <point key="canvasLocation" x="235" y="347"/>
+        </scene>
+        <!--Colour Interface Controller-->
+        <scene sceneID="s7I-VN-6Ew">
+            <objects>
+                <controller id="WuN-55-PXk" customClass="DEV_ColourInterfaceController">
+                    <items>
+                        <group width="1" height="1" alignment="left" id="igt-tK-fmy"/>
+                    </items>
+                    <connections>
+                        <outlet property="group" destination="igt-tK-fmy" id="nBz-dz-1DM"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="470" y="347"/>
         </scene>
         <!--Glance Interface Controller-->
         <scene sceneID="BOz-TT-tkC">
