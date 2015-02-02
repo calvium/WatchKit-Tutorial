@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6189D5F9-F8D0-4531-9D6B-E3D05061051F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>WatchKitTutorial</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F4B5611DC76478601C2608CFA83925124A7ED900</key>
+		<string>https://bitbucket.org/calviumltd/iwatch-project.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>WatchKitTutorial/WatchKitTutorial.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F4B5611DC76478601C2608CFA83925124A7ED900</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/calviumltd/iwatch-project.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F4B5611DC76478601C2608CFA83925124A7ED900</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F4B5611DC76478601C2608CFA83925124A7ED900</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iwatch-project</string>
+		</dict>
+	</array>
+</dict>
+</plist>
