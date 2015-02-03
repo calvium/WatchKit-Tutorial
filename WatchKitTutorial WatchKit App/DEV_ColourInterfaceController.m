@@ -42,6 +42,13 @@
     [super didDeactivate];
 }
 
+
+- (IBAction)menuMapPressed {
+    
+    //present the modal dialog
+    [self presentControllerWithName:@"MapModalInterface" context:nil];
+}
+
 @end
 
 
