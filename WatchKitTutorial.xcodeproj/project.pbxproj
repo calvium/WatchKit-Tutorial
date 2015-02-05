@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D34186751A83DABA008370C7 /* DEV_ColourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D34186741A83DABA008370C7 /* DEV_ColourViewController.m */; };
 		D3C711EA1A77E3E600022F83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C711E91A77E3E600022F83 /* main.m */; };
 		D3C711ED1A77E3E600022F83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C711EC1A77E3E600022F83 /* AppDelegate.m */; };
 		D3C711F01A77E3E600022F83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3C711EF1A77E3E600022F83 /* ViewController.m */; };
@@ -69,6 +70,8 @@
 /* Begin PBXFileReference section */
 		D34186711A838704008370C7 /* WatchKitTutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = WatchKitTutorial.entitlements; sourceTree = "<group>"; };
 		D34186721A8388BF008370C7 /* WatchKitTutorial WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "WatchKitTutorial WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		D34186731A83DABA008370C7 /* DEV_ColourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEV_ColourViewController.h; sourceTree = "<group>"; };
+		D34186741A83DABA008370C7 /* DEV_ColourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEV_ColourViewController.m; sourceTree = "<group>"; };
 		D3C711E41A77E3E600022F83 /* WatchKitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchKitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3C711E81A77E3E600022F83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3C711E91A77E3E600022F83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -161,6 +164,8 @@
 				D3C711EC1A77E3E600022F83 /* AppDelegate.m */,
 				D3C711EE1A77E3E600022F83 /* ViewController.h */,
 				D3C711EF1A77E3E600022F83 /* ViewController.m */,
+				D34186731A83DABA008370C7 /* DEV_ColourViewController.h */,
+				D34186741A83DABA008370C7 /* DEV_ColourViewController.m */,
 				D3C711F11A77E3E600022F83 /* Main.storyboard */,
 				D3C711F41A77E3E600022F83 /* Images.xcassets */,
 				D3C711F61A77E3E600022F83 /* LaunchScreen.xib */,
@@ -421,6 +426,7 @@
 			files = (
 				D3C711F01A77E3E600022F83 /* ViewController.m in Sources */,
 				D3C711ED1A77E3E600022F83 /* AppDelegate.m in Sources */,
+				D34186751A83DABA008370C7 /* DEV_ColourViewController.m in Sources */,
 				D3C711EA1A77E3E600022F83 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

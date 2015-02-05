@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0620"
-   version = "1.3">
+   version = "2.0">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -75,10 +75,13 @@
       buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "YES"
+      launchAutomaticallySubstyle = "4"
+      notificationPayloadFile = "WatchKitTutorial WatchKit Extension/PushNotificationPayload.apns">
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.springboard"
+         launchOptions = "4"
          RemotePath = "/WatchKitTutorial">
          <BuildableReference
             BuildableIdentifier = "primary"
@@ -106,6 +109,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D3C712221A77E42500022F83"
+            BuildableName = "WatchKitTutorial WatchKit App.app"
+            BlueprintName = "WatchKitTutorial WatchKit App"
+            ReferencedContainer = "container:WatchKitTutorial.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <RemoteRunnable
          runnableDebuggingMode = "2"
          BundleIdentifier = "com.apple.springboard"
@@ -118,15 +130,6 @@
             ReferencedContainer = "container:WatchKitTutorial.xcodeproj">
          </BuildableReference>
       </RemoteRunnable>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "D3C712221A77E42500022F83"
-            BuildableName = "WatchKitTutorial WatchKit App.app"
-            BlueprintName = "WatchKitTutorial WatchKit App"
-            ReferencedContainer = "container:WatchKitTutorial.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
