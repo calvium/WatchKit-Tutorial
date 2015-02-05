@@ -49,7 +49,7 @@
     }*/
     
     
-    //////FOR MULTIPLR TYPES OF ROWS
+    //////FOR MULTIPLE TYPES OF ROWS
     
     //set up the controllers
     NSMutableArray *controllers = [[NSMutableArray alloc] init];
@@ -75,6 +75,21 @@
         
     }
     
+    
+    //////NSUserDefaults
+    
+    //use our group user defaults
+    NSUserDefaults *defaults = [[NSUserDefaults alloc] initWithSuiteName:@"group.com.calvium.watch.dev.defaults"];
+    
+    //get the greeting
+    NSString *greeting = [defaults objectForKey:@"greeting"];
+    
+    //check if greeting isn't empty
+    if (greeting) {
+        NSLog(@"greeting = %@", greeting);
+    } else{
+        NSLog(@"no user defaults :(");
+    }
     
     
     
