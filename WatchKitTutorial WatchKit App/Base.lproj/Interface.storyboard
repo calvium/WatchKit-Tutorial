@@ -135,10 +135,18 @@
             <objects>
                 <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController">
                     <items>
-                        <group alignment="left" id="t8f-Gd-c4y"/>
+                        <group alignment="left" id="t8f-Gd-c4y">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="Label" textAlignment="left" id="zFF-BP-do4"/>
+                            </items>
+                        </group>
                         <group alignment="left" id="uCw-4Q-Ouw"/>
                     </items>
                     <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                    <connections>
+                        <outlet property="group" destination="uCw-4Q-Ouw" id="Hge-X2-30H"/>
+                        <outlet property="lblTitle" destination="zFF-BP-do4" id="LnC-uz-wZY"/>
+                    </connections>
                 </glanceController>
             </objects>
             <point key="canvasLocation" x="143" y="846"/>
@@ -157,14 +165,14 @@
                     </connections>
                 </notificationController>
             </objects>
-            <point key="canvasLocation" x="235" y="1001"/>
+            <point key="canvasLocation" x="97" y="1237"/>
         </scene>
         <!--Notification Controller-->
         <scene sceneID="KIl-fV-djm">
             <objects>
                 <controller id="gdX-wl-uQE" customClass="NotificationController"/>
             </objects>
-            <point key="canvasLocation" x="553" y="1001"/>
+            <point key="canvasLocation" x="323" y="1237"/>
         </scene>
     </scenes>
 </document>
